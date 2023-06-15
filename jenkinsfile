@@ -5,16 +5,12 @@ pipeline{
          steps {
             script{
                 echo "build in progress"
-            }
+            }}}
+
         stage('test') {
          steps {
             script{
                 echo "test in progress"
-            }
-    }
-  }
-    }
-  }
-
-}
-}
+            }}}
+  
+}}
